@@ -1,0 +1,83 @@
+/* === ESTILOS GENERALES === */
+body {
+  background-color: #fff7fb;
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #ffd6f0, #ffe4f7);
+  box-shadow: 0 2px 8px rgba(255, 0, 150, 0.1);
+  border-bottom: 2px solid #ffc1e3;
+}
+
+.navbar-brand {
+  color: #c2185b !important;
+  font-weight: 700;
+  font-size: 1.4rem;
+  transition: all 0.3s ease;
+}
+
+.navbar-brand:hover {
+  color: #880e4f !important;
+  transform: scale(1.05);
+}
+
+.nav-link {
+  color: #7b1fa2 !important;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #d81b60 !important;
+}
+
+.position-relative {
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.position-relative:hover {
+  transform: scale(1.1);
+}
+
+.container {
+  margin-top: 5rem;
+  padding: 2rem;
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 0 4px 20px rgba(255, 192, 203, 0.2);
+  animation: fadeIn 1s ease-out;
+}
+
+h2 {
+  color: #8e24aa;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+p {
+  color: #555;
+  font-size: 1.1rem;
+  margin-top: 10px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.badge {
+  background-color: #f50057 !important;
+  box-shadow: 0 0 6px rgba(255, 105, 180, 0.6);
+}
